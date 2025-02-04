@@ -12,8 +12,7 @@ with st.spinner('잠시만 기다려주세요...'):
     
     if uploaded_file:
         image = Image.open(uploaded_file)
-        image.save("output_image.jpg")
-        st.image("output_image.jpg")
+        
         
         st.image(image, width=350, caption='컴퓨터에 있는 이미지 파일 표시')
         
