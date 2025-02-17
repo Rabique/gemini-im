@@ -3,8 +3,8 @@ from PIL import Image
 import google.generativeai as genai
 
 
-st.title("image 파일 업로드")
-st.subheader("1. 컴퓨터에 있는 이미지 파일을 업로드")
+st.title("Image 파일 업로드")
+st.subheader("1.사진을 촬영하거나 컴퓨터에 있는 이미지 파일을 업로드 하세요!")
 
 uploaded_file = st.file_uploader("Image file 선택 " , type = None)
 
